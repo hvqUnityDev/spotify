@@ -9,8 +9,7 @@
 }
 .logo a{
     display: block;   
-    width: 160px;
-    
+    width: 160px; 
 }
 .logo{
     float: left;
@@ -71,10 +70,33 @@ ul li{
     padding: 14px 32px;
     font-size: 20px;
 }
-.containerFoot{
+.foot{
     background-color: black;
     padding: 10px 30px;
     height: 500px;
+}
+.headerFoot{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.logoFoot a{
+    display: block;   
+    width: 160px; 
+    height: 200px;
+}
+.logoFoot{
+    float: left;
+}
+
+
+.deMuc h3{
+    color: #919496;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-size: 12px;
 }
 .deMuc ul{
     display: flex;
@@ -84,12 +106,9 @@ ul li{
 .deMuc ul li{
     display: flex;
     flex-direction: row;
+    font-size: 16px;
+    float: left;
 }
-.deMuc h3{
-    color: #919496;
-    font-weight: bolder;    
-}
-
 .textColor{
     color:white;
     text-decoration: none;
@@ -97,5 +116,24 @@ ul li{
 }
 .textColor:hover{
     color: #1ed760;
+}
+
+.description .table-1{
+    display: flex;
+    float: left;
+    margin-left: 50px;
+}
+.description .table-1 a{
+    color: #919496;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 45px;
+
+}
+.description .table-2 a,p{
+    color: white;
+    float: right;
+    text-decoration: none;
+    margin-left: 50px;
 }
 
