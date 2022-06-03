@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: black;
+    padding: 10px 30px;
+    height: 50px;
+}
+.logo a{
+    display: block;   
+    width: 160px;
+    
+}
+.logo{
+    float: left;
+}
+.menu{
+    float : right;
+}
+ul{
+    list-style-type: none;
+    
+}
+ul li{
+    float: left;
+    margin: 20px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.background{    
+    background-color: #2941ab;
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-size: 175%;
+    background-position: 46% 4%;
+    height: 350px;
+    padding: 130px 10% ;
+}
+.text1{
+    font-size: 156px;   
+    text-align: center;
+    letter-spacing: -0.04em ;
+    color: #1ed760;
+}
+.text2{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+    color: #1ed760;
+    padding-bottom: 50px;
+}
+.buttonText3{
+    text-align: center;
+}
+.buttonText3 a{
+    background-color: #1ed760;
+    border-radius: 500px;
+    color: #2941ab;
+    text-decoration: none;
+    padding: 12px 31px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.buttonText3 a:hover{
+    padding: 14px 32px;
+    font-size: 20px;
+}
+.containerFoot{
+    background-color: black;
+    padding: 10px 30px;
+    height: 500px;
+}
+.deMuc ul{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.deMuc ul li{
+    display: flex;
+    flex-direction: row;
+}
+.deMuc h3{
+    color: #919496;
+    font-weight: bolder;    
+}
+
+.textColor{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.textColor:hover{
+    color: #1ed760;
+}
+
